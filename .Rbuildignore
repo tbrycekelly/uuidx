@@ -1,0 +1,15 @@
+^src/\.cargo$
+^src/rust/vendor$
+^src/rust/target$
+^src/Makevars$
+^src/Makevars\.win$
+^dev$
+^Makefile$
+^cran-comments\.md$
+^package-report\.txt$
+^uuidx\.Rproj$
+^\.Rproj\.user$
+^\.cargo-local$
+^\.cargo-local-181$
+^\.rustup-local$
+^src/rust/target-msrv$

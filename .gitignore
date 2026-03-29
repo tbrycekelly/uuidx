@@ -1,0 +1,29 @@
+.DS_Store
+
+# R session and IDE files
+.RData
+.Rhistory
+.Rproj.user/
+
+# Package build and check artifacts
+*.tar.gz
+*.Rcheck/
+
+# Generated native build files
+src/Makevars
+src/Makevars.win
+src/*.o
+src/*.so
+src/*.dll
+src/*.dylib
+src/*.a
+
+# Rust build outputs
+src/rust/target/
+src/rust/target-msrv/
+src/rust/vendor/
+
+# Local toolchain directories used for CRAN/MSRV testing
+.cargo-local/
+.cargo-local-181/
+.rustup-local/
