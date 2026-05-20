@@ -21,6 +21,7 @@
 ## Notes
 
 - This package vendors its Rust dependencies for offline CRAN builds via `rextendr::vendor_pkgs()`.
+- The package includes a checked-in patch of `extendr-api` that gates non-API R internals behind the crate's `non-api` feature, preventing those symbols from being linked into the package DLL.
 - The source tarball is approximately 3 MB because it includes `src/rust/vendor.tar.xz`.
 - The vendored Rust dependency set was verified to build offline with Rust 1.81,
   matching CRAN's current MSRV guidance for Rust packages.

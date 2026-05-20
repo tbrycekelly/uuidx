@@ -8,8 +8,8 @@ Rust backend. It focuses on a small, practical API and uses the Rust
 
 The package is developed by Thomas Bryce Kelly and published as part of
 [Icy Seas Co-Laboratory](https://icyseascolab.io), an applied research and
-engineering studio focused on practical computational tools, data systems, and
-scientific software.
+engineering institute focused on practical computational tools, data systems, and
+scientific software and based in Fairbanks, AK.
 
 ## About Icy Seas Co-Laboratory
 

@@ -10,5 +10,5 @@ crate-type = [ 'staticlib' ]
 name = 'uuidx'
 
 [dependencies]
-extendr-api = '0.8.1'
+extendr-api = { path = 'vendor-patched/extendr-api' }
 uuid = { version = '=1.12.1', features = ['rng', 'std', 'v1', 'v4', 'v5', 'v6', 'v7'] }
